@@ -3,8 +3,10 @@
     "title": "Make Tables Responsive",
     "description": "adds a mobile version of wide tables that break a responsive design. Leaves the Original table and adds a tall version. Toggles between them using media queries",
     "keywords": [
-        "Responsive",
-        "Tables"
+        "jquery-plugin",
+        " ecosystem:jquery",
+		"",
+		""
     ],
     "version": "0.1.0",
     "author": {
@@ -19,5 +21,6 @@
     ],
     "dependencies": {
         "jquery": ">=1.5"
-    }
+    },
+	"repository": "https://github.com/cfullerton/make-tables-responsve"
 }
