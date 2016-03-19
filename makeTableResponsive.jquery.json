@@ -1,5 +1,5 @@
 {
-    "name": "makeTablesResponsive",
+    "name": "makeTableResponsive",
     "title": "Make Tables Responsive",
     "description": "adds a mobile version of wide tables that break a responsive design. Leaves the Original table and adds a tall version. Toggles between them using media queries",
     "keywords": [
