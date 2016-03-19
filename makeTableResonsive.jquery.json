@@ -1,0 +1,23 @@
+{
+    "name": "makeTablesResponsive",
+    "title": "Make Tables Responsive",
+    "description": "adds a mobile version of wide tables that break a responsive design. Leaves the Original table and adds a tall version. Toggles between them using media queries",
+    "keywords": [
+        "Responsive",
+        "Tables"
+    ],
+    "version": "0.1.0",
+    "author": {
+        "name": "Conner Fullerton",
+        "url": "https://github.com/cfullerton"
+    },
+    "licenses": [
+        {
+            "type": "MIT",
+            "url": "https://github.com/jquery/jquery-color/blob/2.1.2/MIT-LICENSE.txt"
+        }
+    ],
+    "dependencies": {
+        "jquery": ">=1.5"
+    }
+}
