@@ -5,8 +5,8 @@ $.fn.makeTableResponsive = function (options){
             headingRow: -1
         }, options );
 	   
-	   var style ="<style>@media (max-width:" + settings.breakpoint + "){.desktop-table {display:none}}" +
-	   "@media (min-width:" + settings.breakpoint + "){.mobile-table {display:none}}</style>";
+	   var style ="<style>@media (max-width:" + settings.breakpoint + "){.cfdesktop-table {display:none}}" +
+	   "@media (min-width:" + settings.breakpoint + "){.cfmobile-table {display:none}}</style>";
 	   $('html > head').append(style);
        return this.each(function() {
 	   var table = $(this).get(0);
@@ -64,8 +64,8 @@ $.fn.makeTableResponsive = function (options){
        }
        var newTable = document.createElement("table");
 	   newTable.appendChild(tbody);
-	   table.className += " desktop-table";
-	   newTable.className += "mobile-table sizetable";
+	   table.className += " cfdesktop-table";
+	   newTable.className += "cfmobile-table";
 	   table.parentElement.appendChild(newTable);
 	});
 }
