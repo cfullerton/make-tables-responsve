@@ -13,12 +13,12 @@ Doesn't require any markup changes.
        <th>Phone Number</th>
     </tr>
     <tr>
-       <th>Conner</th>
-       <th>26</th>
-       <th>Male</th>
-       <th>Blue</th>
-       <th>123 N Hall St</th>
-       <th>555-1234</th>
+       <td>Conner</td>
+       <td>26</td>
+       <td>Male</td>
+       <td>Blue</td>
+       <td>123 N Hall St</td>
+       <td>555-1234</td>
     </tr>
 </table>
 ```
